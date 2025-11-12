@@ -49,3 +49,9 @@
 ![Git Logo](https://git-scm.com/images/logo@2x.png)
 
 *Логотип Git*
+
+## URLs
+
+**Полезные ресурсы:**
+
+- [Официальная документация Git](https://git-scm.com/doc)
