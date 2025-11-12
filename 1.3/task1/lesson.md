@@ -43,3 +43,9 @@
 | `git merge` | `git merge <branch>` | объединить ветки |
 | `git remote` | `git remote add <name> <url>` | добавить удаленный репозиторий |
 | `git fetch` | `git fetch` | получить изменения без слияния |
+
+## Pictures
+
+![Git Logo](https://git-scm.com/images/logo@2x.png)
+
+*Логотип Git*
