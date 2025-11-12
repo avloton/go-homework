@@ -55,3 +55,9 @@
 **Полезные ресурсы:**
 
 - [Официальная документация Git](https://git-scm.com/doc)
+
+## Git commands GitHub
+
+    git remote add origin https://github.com/avloton/go-homework.git
+    git branch -M main
+    git push -u origin main
