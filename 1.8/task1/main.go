@@ -18,9 +18,9 @@ func main() {
 }
 
 func divide(a, b float64) (float64, error) {
-	result := a/b
 	if b == 0 {
 		return 0, fmt.Errorf("Ошибка. Второй параметр равен нулю.")
 	}
+	result := a/b
 	return result, nil
 }
