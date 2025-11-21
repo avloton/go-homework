@@ -24,12 +24,12 @@ func (a *BankAccount) Deposit(amount float64) {
 	a.Balance += amount
 }
 func (a *BankAccount) Withdraw(amount float64) {
-	fmt.Printf("Попытка снять сумму: %v\n", amount)
-	currentBalance := a.Balance
-	if (currentBalance - amount) < 0 {
+	fmt.Printf("Попытка снять сумму: %v ... ", amount)
+	if amount > a.Balance {
 		fmt.Printf("Ошибка, на счете недостаточно средств: %v\n", a.Balance)
 	} else {
 		a.Balance -= amount
+		fmt.Printf("Успешно, осталось на счете: %v\n", a.Balance)
 	}
 }
 
